@@ -1,4 +1,5 @@
-const { genSalt } = require('bcrypt');
+const bcrypt = require('bcryptjs');
+
 const User = require('../models/userModel');
 const Product = require('../models/productModel');
 const Cart = require('../models/cartModel');
